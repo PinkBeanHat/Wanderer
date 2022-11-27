@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941528742194",
+    "project_id": "wanderer-2d602",
+    "storage_bucket": "wanderer-2d602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941528742194:android:fb50a4f90584242dcbbf2b",
+        "android_client_info": {
+          "package_name": "com.wanderer.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941528742194-67looehuksftklsbfi4f0itc4dco8p2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wanderer.client",
+            "certificate_hash": "69dad640c8792754539868e38c85ff29f5585dd1"
+          }
+        },
+        {
+          "client_id": "941528742194-a8omjnbfmo42tco0299d07lo7unt59nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxHJn4ArxX90quvsWifkgdl28POrS5ScI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941528742194-a8omjnbfmo42tco0299d07lo7unt59nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

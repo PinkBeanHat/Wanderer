@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main">
+
+    <ImageView
+        android:id="@+id/imgBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_game_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imgBar2"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_game_bar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgCondition"
+        android:layout_width="97dp"
+        android:layout_height="142dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/img_card_back"
+        app:layout_constraintLeft_toLeftOf="@id/imgBar2"
+        app:layout_constraintTop_toTopOf="@id/imgBar2" />
+
+    <ImageView
+        android:id="@+id/imgCondition2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/imgCondition"
+        app:layout_constraintLeft_toLeftOf="@id/imgCondition"
+        app:layout_constraintRight_toRightOf="@id/imgCondition" />
+
+    <ImageView
+        android:id="@+id/cardPlayer1"
+        android:layout_width="74dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/imgBar"
+        app:layout_constraintRight_toLeftOf="@id/cardPlayer2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/txtPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="@id/cardPlayer1"
+        app:layout_constraintRight_toRightOf="@id/cardPlayer1"
+        app:layout_constraintTop_toBottomOf="@id/cardPlayer1" />
+
+    <ImageView
+        android:id="@+id/cardPlayer2"
+        android:layout_width="74dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@id/cardPlayer1"
+        app:layout_constraintLeft_toRightOf="@id/cardPlayer1"
+        app:layout_constraintRight_toLeftOf="@id/cardPlayer3"
+        app:layout_constraintTop_toTopOf="@id/cardPlayer1" />
+
+    <TextView
+        android:id="@+id/txtPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="@id/cardPlayer2"
+        app:layout_constraintRight_toRightOf="@id/cardPlayer2"
+        app:layout_constraintTop_toBottomOf="@id/cardPlayer2" />
+
+    <ImageView
+        android:id="@+id/cardPlayer3"
+        android:layout_width="74dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@id/cardPlayer2"
+        app:layout_constraintLeft_toRightOf="@id/cardPlayer2"
+        app:layout_constraintRight_toLeftOf="@id/cardPlayer4"
+        app:layout_constraintTop_toTopOf="@id/cardPlayer2" />
+
+    <TextView
+        android:id="@+id/txtPlayer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="@id/cardPlayer3"
+        app:layout_constraintRight_toRightOf="@id/cardPlayer3"
+        app:layout_constraintTop_toBottomOf="@id/cardPlayer3" />
+
+    <ImageView
+        android:id="@+id/cardPlayer4"
+        android:layout_width="74dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@id/cardPlayer3"
+        app:layout_constraintLeft_toRightOf="@id/cardPlayer3"
+        app:layout_constraintRight_toRightOf="@id/viewDeck"
+        app:layout_constraintTop_toTopOf="@id/cardPlayer3" />
+
+    <TextView
+        android:id="@+id/txtPlayer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="@id/cardPlayer4"
+        app:layout_constraintRight_toRightOf="@id/cardPlayer4"
+        app:layout_constraintTop_toBottomOf="@id/cardPlayer4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewDeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/imgBar"
+        app:layout_constraintLeft_toLeftOf="@id/imgBar">
+
+        <ImageButton
+            android:id="@+id/btnDeck1"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnDeck2"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="@id/btnDeck1"
+            app:layout_constraintLeft_toRightOf="@id/btnDeck1" />
+
+        <ImageButton
+            android:id="@+id/btnDeck3"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="@id/btnDeck2"
+            app:layout_constraintLeft_toRightOf="@id/btnDeck2" />
+
+        <ImageButton
+            android:id="@+id/btnDeck4"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="@id/btnDeck3"
+            app:layout_constraintLeft_toRightOf="@id/btnDeck3" />
+
+        <ImageButton
+            android:id="@+id/btnDeck5"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="@id/btnDeck4"
+            app:layout_constraintLeft_toRightOf="@id/btnDeck4" />
+
+        <ImageButton
+            android:id="@+id/btnDeck6"
+            android:layout_width="76dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_card_back"
+            app:layout_constraintBottom_toBottomOf="@id/btnDeck5"
+            app:layout_constraintLeft_toRightOf="@id/btnDeck5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@id/viewDeck"
+        app:layout_constraintLeft_toLeftOf="@id/viewDeck"
+        app:layout_constraintRight_toRightOf="@id/viewDeck"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_20"
+        android:background="@drawable/img_btn_log"
+        app:layout_constraintBottom_toBottomOf="@id/imgBar"
+        app:layout_constraintLeft_toRightOf="@id/viewDeck"
+        app:layout_constraintTop_toTopOf="@id/imgBar" />
+
+    <ImageView
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_20"
+        android:background="@drawable/img_btn_chat"
+        app:layout_constraintBottom_toBottomOf="@id/imgBar"
+        app:layout_constraintLeft_toRightOf="@id/btnLog"
+        app:layout_constraintTop_toTopOf="@id/imgBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

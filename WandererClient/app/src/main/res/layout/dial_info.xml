@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangle2">
+
+    <ImageButton
+        android:id="@+id/btnX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_20"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/img_profile_c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/imgPlayer"
+        app:layout_constraintRight_toRightOf="@id/imgPlayer"
+        app:layout_constraintTop_toBottomOf="@id/imgPlayer" />
+
+    <TextView
+        android:id="@+id/txtPlayerRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        app:layout_constraintLeft_toLeftOf="@id/txtPlayer"
+        app:layout_constraintRight_toRightOf="@id/txtPlayer"
+        app:layout_constraintTop_toBottomOf="@id/txtPlayer" />
+
+    <EditText
+        android:id="@+id/editInfo"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_Left_20"
+        android:layout_marginTop="@dimen/margin_Top_20"
+        android:layout_marginRight="@dimen/margin_Left_20"
+        android:background="@drawable/shape_rectangle"
+        android:gravity="top"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/txtPlayerRate"
+        app:layout_constraintLeft_toRightOf="@id/imgPlayer"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        android:layout_marginBottom="@dimen/margin_Top_10"
+        android:background="@drawable/imb_change"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPlayerRate" />
+
+    <TextView
+        android:id="@+id/txtInfoCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_20"
+        app:layout_constraintRight_toRightOf="@id/editInfo"
+        app:layout_constraintTop_toTopOf="@id/btnChange" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

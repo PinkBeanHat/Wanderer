@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_room">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRoomCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRoomBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRoomLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRoomRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_10"
+        android:background="@drawable/imb_start"
+        app:layout_constraintBottom_toBottomOf="@id/imgRoomName"
+        app:layout_constraintRight_toLeftOf="@id/imgRoomName"
+        app:layout_constraintTop_toTopOf="@id/imgRoomName" />
+
+    <ImageView
+        android:id="@+id/imgRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        android:background="@drawable/img_r_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_50"
+        app:layout_constraintBottom_toBottomOf="@id/imgRoomName"
+        app:layout_constraintLeft_toLeftOf="@id/imgRoomName"
+        app:layout_constraintTop_toTopOf="@id/imgRoomName" />
+
+    <ImageView
+        android:id="@+id/imgRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_10"
+        android:background="@drawable/img_r"
+        app:layout_constraintBottom_toBottomOf="@id/imgRoomName"
+        app:layout_constraintRight_toRightOf="@id/imgRoomName"
+        app:layout_constraintTop_toTopOf="@id/imgRoomName" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_back"
+        app:layout_constraintBottom_toBottomOf="@id/imgRoomName"
+        app:layout_constraintLeft_toRightOf="@id/guideRoomLeft"
+        app:layout_constraintTop_toTopOf="@id/imgRoomName" />
+
+    <ImageButton
+        android:id="@+id/btnRoomSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_r_setting"
+        app:layout_constraintBottom_toTopOf="@id/guideRoomBottom"
+        app:layout_constraintLeft_toRightOf="@id/guideRoomCenter" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/viewRoomUser"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toTopOf="@id/guideRoomBottom"
+        app:layout_constraintLeft_toRightOf="@id/btnRoomSetting"
+        app:layout_constraintRight_toLeftOf="@id/guideRoomRight"
+        app:layout_constraintTop_toBottomOf="@id/imgRoomName" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_r_host"
+        app:layout_constraintLeft_toRightOf="@id/guideRoomCenter"
+        app:layout_constraintRight_toLeftOf="@id/viewRoomUser"
+        app:layout_constraintTop_toTopOf="@id/viewRoomUser" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewRoomChat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintBottom_toBottomOf="@id/viewRoomUser"
+        app:layout_constraintLeft_toRightOf="@id/guideRoomLeft"
+        app:layout_constraintRight_toLeftOf="@id/guideRoomCenter"
+        app:layout_constraintTop_toTopOf="@id/viewRoomUser">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/viewChat"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="20dp"
+            android:paddingBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@id/editRoomChat"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editRoomChat"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_rectangle"
+            android:paddingStart="5dp"
+            app:layout_constraintBottom_toBottomOf="@id/viewRoomChat"
+            app:layout_constraintLeft_toLeftOf="@id/viewRoomChat"
+            app:layout_constraintRight_toLeftOf="@id/btnRoomChat" />
+
+        <ImageButton
+            android:id="@+id/btnRoomChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/imb_submit"
+            app:layout_constraintBottom_toBottomOf="@id/editRoomChat"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/editRoomChat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

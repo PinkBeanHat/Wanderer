@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangle2">
+
+    <ImageButton
+        android:id="@+id/btnX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_10"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/img_profile_c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_10"
+        android:text="닉네임 : "
+        app:layout_constraintBottom_toTopOf="@id/txtPlayer2"
+        app:layout_constraintLeft_toRightOf="@id/imgPlayer"
+        app:layout_constraintTop_toTopOf="@id/imgPlayer" />
+
+    <TextView
+        android:id="@+id/txtPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_10"
+        android:text="점수 : "
+        app:layout_constraintBottom_toBottomOf="@id/imgPlayer"
+        app:layout_constraintLeft_toRightOf="@id/imgPlayer"
+        app:layout_constraintTop_toBottomOf="@id/txtPlayer1" />
+
+    <TextView
+        android:id="@+id/txtPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/txtPlayer1"
+        app:layout_constraintLeft_toRightOf="@id/txtPlayer1"
+        app:layout_constraintTop_toTopOf="@id/txtPlayer1" />
+
+    <TextView
+        android:id="@+id/txtPlayerRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/txtPlayer2"
+        app:layout_constraintLeft_toRightOf="@id/txtPlayer2"
+        app:layout_constraintTop_toTopOf="@id/txtPlayer2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <ImageButton
+        android:id="@+id/btnAddFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_10"
+        android:background="@drawable/imb_add_friend"
+        app:layout_constraintBottom_toTopOf="@id/btnKick"
+        app:layout_constraintLeft_toRightOf="@id/guideInfo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginRight="@dimen/margin_Left_10" />
+
+    <ImageButton
+        android:id="@+id/btnKick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_10"
+        android:background="@drawable/imb_kick"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintLeft_toRightOf="@id/guideInfo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAddFriend"
+        app:layout_goneMarginRight="@dimen/margin_Left_10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangle2">
+
+    <ImageButton
+        android:id="@+id/btnX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtERoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입장 하기"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/editERoomPw"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtERoom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 입력 : "
+        app:layout_constraintBottom_toBottomOf="@id/editERoomPw"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/editERoomPw"
+        app:layout_constraintTop_toTopOf="@id/editERoomPw" />
+
+    <EditText
+        android:id="@+id/editERoomPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        app:layout_constraintBottom_toTopOf="@id/guideERoom"
+        app:layout_constraintLeft_toRightOf="@id/txtERoom2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtERoom" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideERoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <ImageButton
+        android:id="@+id/btnERoomYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_Top_10"
+        android:background="@drawable/imb_enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btnERoomNo"
+        app:layout_constraintTop_toBottomOf="@id/guideERoom" />
+
+    <ImageButton
+        android:id="@+id/btnERoomNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_back2"
+        app:layout_constraintBottom_toBottomOf="@id/btnERoomYes"
+        app:layout_constraintLeft_toRightOf="@id/btnERoomYes"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnERoomYes" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_deck">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDial2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDial3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDial4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDialV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideDeckDialV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+
+    <ImageView
+        android:id="@+id/imgCard1"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card1"
+        app:layout_constraintBottom_toTopOf="@id/guideDeckDial2"
+        app:layout_constraintLeft_toRightOf="@id/guideDeckDialV"
+        app:layout_constraintRight_toLeftOf="@id/imgCard2"
+        app:layout_constraintTop_toBottomOf="@id/guideDeckDial" />
+
+    <ImageView
+        android:id="@+id/imgCard2"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card2"
+        app:layout_constraintLeft_toRightOf="@id/imgCard1"
+        app:layout_constraintRight_toLeftOf="@id/imgCard3"
+        app:layout_constraintTop_toTopOf="@id/imgCard1" />
+
+    <ImageView
+        android:id="@+id/imgCard3"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card3"
+        app:layout_constraintLeft_toRightOf="@id/imgCard2"
+        app:layout_constraintRight_toLeftOf="@id/imgCard4"
+        app:layout_constraintTop_toTopOf="@id/imgCard2" />
+
+    <ImageView
+        android:id="@+id/imgCard4"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card4"
+        app:layout_constraintLeft_toRightOf="@id/imgCard3"
+        app:layout_constraintRight_toLeftOf="@id/imgCard5"
+        app:layout_constraintTop_toTopOf="@id/imgCard3" />
+
+    <ImageView
+        android:id="@+id/imgCard5"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card5"
+        app:layout_constraintLeft_toRightOf="@id/imgCard4"
+        app:layout_constraintRight_toLeftOf="@id/imgCard6"
+        app:layout_constraintTop_toTopOf="@id/imgCard4" />
+
+    <ImageView
+        android:id="@+id/imgCard6"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card6"
+        app:layout_constraintLeft_toRightOf="@id/imgCard5"
+        app:layout_constraintRight_toLeftOf="@id/imgCard7"
+        app:layout_constraintTop_toTopOf="@id/imgCard5" />
+
+    <ImageView
+        android:id="@+id/imgCard7"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card7"
+        app:layout_constraintLeft_toRightOf="@id/imgCard6"
+        app:layout_constraintRight_toLeftOf="@id/guideDeckDialV2"
+        app:layout_constraintTop_toTopOf="@id/imgCard6" />
+
+    <ImageView
+        android:id="@+id/imgCard8"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card8"
+        app:layout_constraintBottom_toTopOf="@id/guideDeckDial4"
+        app:layout_constraintLeft_toRightOf="@id/guideDeckDialV"
+        app:layout_constraintRight_toLeftOf="@id/imgCard9"
+        app:layout_constraintTop_toBottomOf="@id/guideDeckDial3" />
+
+    <ImageView
+        android:id="@+id/imgCard9"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card9"
+        app:layout_constraintLeft_toRightOf="@id/imgCard8"
+        app:layout_constraintRight_toLeftOf="@id/imgCard10"
+        app:layout_constraintTop_toTopOf="@id/imgCard8" />
+
+    <ImageView
+        android:id="@+id/imgCard10"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card10"
+        app:layout_constraintLeft_toRightOf="@id/imgCard9"
+        app:layout_constraintRight_toLeftOf="@id/imgCard11"
+        app:layout_constraintTop_toTopOf="@id/imgCard9" />
+
+    <ImageView
+        android:id="@+id/imgCard11"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card11"
+        app:layout_constraintLeft_toRightOf="@id/imgCard10"
+        app:layout_constraintRight_toLeftOf="@id/imgCard12"
+        app:layout_constraintTop_toTopOf="@id/imgCard10" />
+
+    <ImageView
+        android:id="@+id/imgCard12"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card12"
+        app:layout_constraintLeft_toRightOf="@id/imgCard11"
+        app:layout_constraintRight_toLeftOf="@id/imgCard13"
+        app:layout_constraintTop_toTopOf="@id/imgCard11" />
+
+    <ImageView
+        android:id="@+id/imgCard13"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card13"
+        app:layout_constraintLeft_toRightOf="@id/imgCard12"
+        app:layout_constraintRight_toLeftOf="@id/imgCard14"
+        app:layout_constraintTop_toTopOf="@id/imgCard12" />
+
+    <ImageView
+        android:id="@+id/imgCard14"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card14"
+        app:layout_constraintLeft_toRightOf="@id/imgCard13"
+        app:layout_constraintRight_toLeftOf="@id/imgCard15"
+        app:layout_constraintTop_toTopOf="@id/imgCard13" />
+
+    <ImageView
+        android:id="@+id/imgCard15"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/img_card15"
+        app:layout_constraintLeft_toRightOf="@id/imgCard14"
+        app:layout_constraintRight_toLeftOf="@id/guideDeckDialV2"
+        app:layout_constraintTop_toTopOf="@id/imgCard14" />
+
+    <ImageButton
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imb_ok2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideDeckDial4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

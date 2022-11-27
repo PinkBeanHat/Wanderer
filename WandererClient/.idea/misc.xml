@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/friendimb.xml" value="0.296" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_add_friend.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_alter.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_back.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_back2.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_btn_ok2.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_btn_refresh.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card1.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card10.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card11.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card12.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card13.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card14.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card15.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card2.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card3.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card4.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card5.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card6.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card7.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card8.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_card9.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_create.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_enter.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_f_game.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_friend.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_info.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_kick.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_menu.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_next.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_notice.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_ok.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_quest.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_r_game.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_r_setting.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_random.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_ranking.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_setting.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_shop.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_start.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_submit.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/imb_x.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/img_card11.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/rankgameimb.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/settingimb.xml" value="0.296" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shadow.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_rectangle.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_rectangle2.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_room_button.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_room_chat.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_room_info.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shape_room_player.xml" value="0.5245" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/drawable/shopimb.xml" value="0.5255" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activitiy_game.xml" value="0.33" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activitiy_info.xml" value="0.53125" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activitiy_menu.xml" value="0.53125" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activitiy_setting.xml" value="0.53125" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activity_room.xml" value="0.33" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activity_room_search.xml" value="0.33" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/activity_title.xml" value="0.25" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_add_room.xml" value="0.5" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_deck.xml" value="0.5" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_enter_room.xml" value="0.53125" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_player_info.xml" value="0.5302083333333333" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_register.xml" value="0.5" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/dial_room_add.xml" value="0.53125" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/list_chat.xml" value="0.5302083333333333" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/list_player.xml" value="0.5" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/list_room.xml" value="0.5" />
+        <entry key="..\:/Users/paul9/AndroidStudioProjects/Wanderer/app/src/main/res/layout/recycler_list.xml" value="0.53125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle2">
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_20"
+        android:layout_marginTop="@dimen/margin_Top_10"
+        android:layout_marginRight="@dimen/margin_Left_20"
+        android:text="사용하실 닉네임을 설정해 주세요."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/editRegister"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임 : "
+        app:layout_constraintBottom_toBottomOf="@id/editRegister"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/editRegister"
+        app:layout_constraintTop_toTopOf="@id/editRegister" />
+
+    <EditText
+        android:id="@+id/editRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        app:layout_constraintBottom_toTopOf="@id/guideRegister"
+        app:layout_constraintLeft_toRightOf="@id/txtRegister2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtRegister" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <ImageButton
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_Left_20"
+        android:layout_marginBottom="@dimen/margin_Top_10"
+        android:background="@drawable/imb_ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
